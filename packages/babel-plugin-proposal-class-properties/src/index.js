@@ -217,6 +217,8 @@ export default declare((api, options) => {
           path.node.id = ref;
         }
 
+        // eslint-disable-next-line
+        debugger;
         path.insertBefore(computedNodes);
         path.insertAfter(staticNodes);
       },
